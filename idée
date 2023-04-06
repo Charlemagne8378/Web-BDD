@@ -1,0 +1,29 @@
+Site Web 
+BDD qui contient : Nom, prénom; num tél; email; adresse; code postal, pays, objet ,
+
+Objet , Paiment, livraison, prix
+
+
+Table Livraison : 
+- Mode de livraision
+- FDP 
+- longueur maximum
+kilo max
+- jours ouvrés
+- suivi
+- assurance
+
+Table Objet : 
+Nom
+Catégorie
+Prix
+Volume
+
+Table Client :
+Nom
+Prénom
+email
+Adresse
+Code postal
+ville
+pays
