@@ -17,8 +17,12 @@ def client():
 
 @app.route("/Commande")
 def commande(): 
-    return render_template("commande.html")       
+    return render_template("lst_commande.html") 
 
+@app.route("/Commander")
+def commander(): 
+    return render_template("commander.html")
+      
 @app.route("/Connexion")
 def connexion(): 
     return render_template("connexion.html")    

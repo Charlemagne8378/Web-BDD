@@ -67,3 +67,23 @@
     padding: 1em;
     }
     }
+
+    .container {
+        position: relative;
+      }
+      
+      #image {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.5s, opacity 0.5s ease-in-out;
+      }
+      
+      #texte:hover + #image {
+        visibility: visible;
+        opacity: 1;
+      }
+
